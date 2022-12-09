@@ -2,6 +2,7 @@ package jobagency;
 
 public class Main {
 
+    // Добавить нового наблюдателя, например Specialist, который будет наблюдать за Company
     public static void main(String[] args) {
         Publisher jobAgency = new JobAgency();
         Company google = new Company(jobAgency, "Google", 50);
